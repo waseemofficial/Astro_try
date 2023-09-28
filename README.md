@@ -1,56 +1,54 @@
-<p align="center" >
-<div align="center" >
-<img src="https://github.com/waseemofficial/DSA_Python/blob/main/Images/github_logo_blue.png"/>
-</div>
+# Astro Starter Kit: Basics
 
-<div align="center">
-<a href="https://github.com/waseemofficial">
-<img src="https://img.shields.io/badge/syed-waseem-93b023?&style=for-the-badge&logo=&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"/>
-<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-<img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/>
-</div></p>
+```sh
+npm create astro@latest -- --template basics
+```
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-<div align="center">
-<img src="https://img.shields.io/github/license/waseemofficial/{env.}.svg?style=flat"/> <img src="https://img.shields.io/github/stars/waseemofficial/{env.}.svg?colorB=orange&style=flat"/> <img sec="https://img.shields.io/github/languages/top/waseemofficial/{env.}.svg?style=flat"/> <img src="https://img.shields.io/github/languages/code-size/waseemofficial/{env.}.svg?style=flat"/> <img src="https://img.shields.io/github/issues-raw/waseemofficial/{env.}.svg?style=flat" />
-</div>
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-<div align="center"> 
+![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-### Languages
+## 🚀 Project Structure
 
-![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
-![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
-![Golang](https://img.shields.io/badge/-Golang-000?&logo=Go)
-![Java](https://img.shields.io/badge/-Java-000?&logo=jdk)
-![Solidity](https://img.shields.io/badge/-Solidity-000?&logo=Solidity)
-![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
-![Bash](https://img.shields.io/badge/-Bash-000?&logo=gnu-bash&logoColor=white)
-![Bash](https://img.shields.io/badge/-markdown-000?&logo=markdown)
+Inside of your Astro project, you'll see the following folders and files:
 
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   └── Card.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-### Technologies
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
-![Linux](https://img.shields.io/badge/-Linux-000?&logo=Linux)
-![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
-![React](https://img.shields.io/badge/-React-000?&logo=React)
-![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
-![Cypress](https://img.shields.io/badge/-Postman-000?&logo=Postman)
-![Cypress](https://img.shields.io/badge/-Cypress-000?&logo=Cypress)
-![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)
-![GitHub](https://img.shields.io/badge/-Selenium-000?&logo=Selenium)
-![GitHub](https://img.shields.io/badge/-Regex-000?&logo=Regex)
-![GithubActions](https://img.shields.io/badge/-GithubActions-000?&logo=GithubActions)
-</div>
-<div align="left">
- 
-# Title
+Any static assets, like images, can be placed in the `public/` directory.
 
-==Array==
-</div>
-==Array==
+## 🧞 Commands
 
+All commands are run from the root of the project, from a terminal:
 
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
